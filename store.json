@@ -1,0 +1,13 @@
+{
+    "apps":  [
+        {
+            "id": "AutumnOS_Shutdown_Programmer",
+            "name": "Shutdown Programmer for AutumnOS",
+            "ver": "1.0.0",
+            "icon": "A_SHT",
+            "size": "0 B",
+            "url": "ATM_NO_URL"
+        }
+    ]
+}
+
