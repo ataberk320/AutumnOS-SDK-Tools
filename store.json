@@ -1,7 +1,7 @@
 {
     "apps":  [
         {
-            "id": "AutumnOS_Shutdown_Programmer",
+            "id": "app01",
             "name": "Shutdown Programmer for AutumnOS",
             "ver": "1.0.0",
             "icon": "A_SHT",
