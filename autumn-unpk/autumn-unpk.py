@@ -15,7 +15,7 @@ def unpackage(atm_file, target_root="/apps"):
             if os.path.exists(install_path):
                 shutil.rmtree(install_path)
             tar.extractall(path=target_root)
-          print(f"{app_name} successfully unpackaged and loaded to {install_path}!);
+          print(f"{app_name} successfully unpackaged and loaded to {install_path}!");
           return True
       except Exception as e:
         print (f"Error while unpackaging process: {e}!")
