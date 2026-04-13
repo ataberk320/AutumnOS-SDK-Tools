@@ -88,7 +88,7 @@ static const struct luaL_Reg autumn_eng[] = {
     {NULL, NULL}
 };
 
-int luaopen_autumn_eng(lua_State *L) {
+int luaopen_autumn(lua_State *L) {
     luaL_newlib(L, autumn_eng);
     return 1;
 }
