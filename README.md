@@ -1,5 +1,5 @@
 # **AutumnOS-SDK**
-SDK/Platform app or package development environment for AutumnOS
+SDK/Platform, App and package development environment tools for AutumnOS
 
 * autumn-cnv -> To convert binary archives to AutumnOS compatible archives.
 
