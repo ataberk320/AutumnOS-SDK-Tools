@@ -4,6 +4,7 @@
 #include "lvgl.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "AutumnAPI.h"
 
 static int l_create_rect(lua_State *L) {
     int w = luaL_checkinteger(L, 1);
