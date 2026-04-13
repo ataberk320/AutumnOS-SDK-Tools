@@ -47,4 +47,4 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Using: atm-conv <app_folder>")
     else:
-        pack_autumn_app(sys.argv[1])
+        pack_atmapp(sys.argv[1])
