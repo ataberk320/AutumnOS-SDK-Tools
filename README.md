@@ -1,7 +1,11 @@
 # **AutumnOS-SDK**
 SDK/Platform, App and package development environment tools for AutumnOS
 
-* autumn-cnv -> To convert binary archives to AutumnOS compatible archives.
+-----------------------------
+
+**SDK tools functions:**
+
+* autumn-cnv -> To package and convert binary archives to AutumnOS compatible app archives.
 
 * autumn-unpk -> To unpackage AutumnOS compatible archives.
 
