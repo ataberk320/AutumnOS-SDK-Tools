@@ -45,6 +45,6 @@ def pack_atmapp(source_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Using: atm-conv <uygulama_klasoru>")
+        print("Using: atm-conv <app_folder>")
     else:
         pack_autumn_app(sys.argv[1])
