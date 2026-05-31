@@ -41,7 +41,7 @@ SolidCompression=yes
 WizardStyle=classic slate
 
 [Setup]
-SetupIconFile=C:\Users\atatv\source\repos\SawahIDE\SawahIDE\Assets\s_icon.ico
+SetupIconFile=Assets\s_icon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -50,10 +50,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\atatv\source\repos\SawahIDE\SawahIDE\bin\Release\net10.0-windows\win-x64\publish\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\atatv\Desktop\AutumnAPI.h"; DestDir: "{app}\headers\API"; Flags: ignoreversion
-Source: "C:\Users\atatv\Desktop\clib\*.h"; DestDir: "{app}\headers\clib"; Flags: ignoreversion
-Source: "C:\Users\atatv\Desktop\SawahIDE_Final_Qt\*"; DestDir: "{app}\headers\qt6"; Flags: ignoreversion
+Source: "{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "AutumnAPI.h"; DestDir: "{app}\headers\API"; Flags: ignoreversion
+Source: "clib\*.h"; DestDir: "{app}\headers\clib"; Flags: ignoreversion
+Source: "SawahIDE_Final_Qt\*"; DestDir: "{app}\headers\qt6"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
